@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMPRE INTERNET - ASN28198</title>
+    <link rel="stylesheet" type="text/css" href="css/communities.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div id="content">
+        <div id="div_logo">
+            <img id="logo_sempre" src="img/Logo sempre branca fundo azul.png" alt="logo_sempre">
+        </div>
+        <h1>SEMPRE INTERNET - ASN28198</h1>
+        <h2>BGP COMMUNITIES</h2>
+        <h3>Communities Especiais</h3>
+        <table id="table_blackhole" class="rTable">
+            <thead>
+                <tr>
+                    <th>Community</th>
+                    <th>Descrição</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>28198:666</td>
+                    <td>Blackhole</td>
+                    <td>O prefixo marcado com esta community terá o tráfego descartado.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Communities de Engenharia de Tráfego</h3>
+        
+        <p>O uso dessas communities permite que os clientes manipulem os anúncios da maneira que acharem melhor para a sua rede.</p>
+
+        <h3>TRÂNSITO</h3>
+        <table class="rTable">
+            <thead>
+                <tr>
+                    <th>Community</th>
+                    <th>Descrição</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>28198:65500</td>
+                    <td>Cirion</td>
+                    <td>Não anunciar para Cirion</td>
+                </tr>
+                <tr>
+                    <td>28198:65501</td>
+                    <td>Algar</td>
+                    <td>Não anunciar para Algar</td>
+                </tr>
+                <tr>
+                    <td>28198:65503</td>
+                    <td>ATC</td>
+                    <td>Não anunciar para American Tower</td>
+                </tr>
+                <tr>
+                    <td>28198:65504</td>
+                    <td>Seaborn</td>
+                    <td>Não anunciar para Seaborn</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h3>CDN</h3>
+        <table class="rTable">
+            <thead>
+                <tr>
+                    <th>Community</th>
+                    <th>Descrição</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>28198:65400</td>
+                    <td>Netflix</td>
+                    <td>Não anunciar para CDN Netflix</td>
+                </tr>
+                <tr>
+                    <td>28198:65401</td>
+                    <td>Facebook</td>
+                    <td>Não anunciar para CDN Facebook</td>
+                </tr>
+                <tr>
+                    <td>28198:65402</td>
+                    <td>Google</td>
+                    <td>Não anunciar para CDN Google</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h3>IX</h3>
+        <table class="rTable">
+            <thead>
+                <tr>
+                    <th>Community</th>
+                    <th>Descrição</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>28198:65300</td>
+                    <td>São Paulo</td>
+                    <td>Não anunciar para IX-SP</td>
+                </tr>
+                <tr>
+                    <td>28198:65200</td>
+                    <td>Minas Gerais</td>
+                    <td>Não anunciar para IX-MG</td>
+                </tr>
+                <tr>
+                    <td>28198:65100</td>
+                    <td>Rio de Janeiro</td>
+                    <td>Não anunciar para IX-RJ</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h3>PEERING</h3>
+        <table class="rTable">
+            <thead>
+                <tr>
+                    <th>Community</th>
+                    <th>Descrição</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>28198:64800</td>
+                    <td>Peering</td>
+                    <td>Não anunciar para Peering</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>PNI</h3>
+        <table class="rTable">
+            <thead>
+                <tr>
+                    <th>Community</th>
+                    <th>Descrição</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>28198:64900</td>
+                    <td>PNI</td>
+                    <td>Não anunciar para todos os PNI abaixo</td>
+                </tr>
+                    <td>28198:64901</td>
+                    <td>GOOGLE</td>
+                    <td>Não anunciar para PNI Google</td>
+                <tr>
+                    <td>28198:64902</td>
+                    <td>GLOBO-MG</td>
+                    <td>Não anunciar para Globo-MG</td>
+                </tr>
+                <tr>
+                    <td>28198:64903</td>
+                    <td>TWITCH</td>
+                    <td>Não anunciar para PNI Twitch</td>
+                </tr>
+                <tr>
+                    <td>28198:64904</td>
+                    <td>AMAZON</td>
+                    <td>Não anunciar para PNI Amazon</td>
+                </tr>
+                <tr>
+                    <td>28198:64905</td>
+                    <td>EDGECAST</td>
+                    <td>Não anunciar para PNI Edgecast</td>
+                </tr>
+                <tr>
+                    <td>28198:64906</td>
+                    <td>FACEBOOK</td>
+                    <td>Não anunciar para PNI Facebook</td>
+                </tr>
+                <tr>
+                    <td>28198:64907</td>
+                    <td>AKAMAI</td>
+                    <td>Não anunciar para PNI Akamai</td>
+                </tr>
+                <tr>
+                    <td>28198:64909</td>
+                    <td>CDNTV</td>
+                    <td>Não anunciar para PNI CDNTV</td>
+                </tr>
+                <tr>
+                    <td>28198:64910</td>
+                    <td>FASTLY</td>
+                    <td>Não anunciar para PNI Fastly</td>
+                </tr>
+                <tr>
+                    <td>28198:64911</td>
+                    <td>BYTEDANCE</td>
+                    <td>Não anunciar para PNI Bytedance</td>
+                </tr>   
+            </tbody>
+        </table>
+
+        <h3>PREPEND</h3>
+        <table id="table_preppend" class="rTable">
+            <thead>
+                <tr>
+                    <th>Community</th>
+                    <th>Descrição</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>65510:3356</td>
+                    <td rowspan="3">Cirion</td>
+                    <td>Prepend 1x Cirion</td>
+                </tr>
+                <tr>
+                    <td>65520:3356</td>
+                    <td>Prepend 2x Cirion</td>
+                </tr>
+                <tr>
+                    <td>65530:3356</td>
+                    <td>Prepend 3x Cirion</td>
+                </tr>
+
+                <tr>
+                    <td>65511:16735</td>
+                    <td rowspan="3">Algar</td>
+                    <td>Prepend 1x Algar</td>
+                </tr>
+                <tr>
+                    <td>65521:16735</td>
+                    <td>Prepend 2x Algar</td>
+                </tr>
+                <tr>
+                    <td>65531:16735</td>
+                    <td>Prepend 3x Algar</td>
+                </tr>
+
+                <tr>
+                    <td>65511:23106</td>
+                    <td rowspan="3">ATC</td>
+                    <td>Prepend 1x ATC</td>
+                </tr>
+                <tr>
+                    <td>65521:23106</td>
+                    <td>Prepend 2x ATC</td>
+                </tr>
+                <tr>
+                    <td>65531:23106</td>
+                    <td>Prepend 3x ATC</td>
+                </tr>
+
+                <tr>
+                    <td>65511:13786</td>
+                    <td rowspan="3">Seaborn</td>
+                    <td>Prepend 1x Seaborn</td>
+                </tr>
+                <tr>
+                    <td>65521:13786</td>
+                    <td>Prepend 2x Seaborn</td>
+                </tr>
+                <tr>
+                    <td>65531:13786</td>
+                    <td>Prepend 3x Seaborn</td>
+                </tr>
+
+                <tr>
+                    <td>65511:26162</td>
+                    <td rowspan="3">IX-SP</td>
+                    <td>Prepend 1x IX-SP</td>
+                </tr>
+                <tr>
+                    <td>65521:26162</td>
+                    <td>Prepend 2x IX-SP</td>
+                </tr>
+                <tr>
+                    <td>65531:26162</td>
+                    <td>Prepend 3x IX-SP</td>
+                </tr>
+
+                <tr>
+                    <td>28198:65210</td>
+                    <td rowspan="3">IX-MG</td>
+                    <td>Prepend 1x IX-MG</td>
+                </tr>
+                <tr>
+                    <td>28198:65220</td>
+                    <td>Prepend 2x IX-MG</td>
+                </tr>
+                <tr>
+                    <td>28198:65230</td>
+                    <td>Prepend 3x IX-MG</td>
+                </tr>
+
+                <tr>
+                    <td>65510:26162</td>
+                    <td rowspan="3">IX-RJ</td>
+                    <td>Prepend 1x IX-RJ</td>
+                </tr>
+                <tr>
+                    <td>65520:26162</td>
+                    <td>Prepend 2x IX-RJ</td>
+                </tr>
+                <tr>
+                    <td>65530:26162</td>
+                    <td>Prepend 3x IX-RJ</td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="ult_parag">A Sempre se coloca à disposição, mas para agilizar seu atendimento, tenha em <br>mãos a designação de seu circuito sempre que necessitar acionar o suporte.</p>
+    </div>
+</body>
+<footer>
+    <div>
+        <img src="img/Logo sempre branca.png" alt="logo_sempre_branca" >
+    </div>
+    <div>
+        <h3>Suporte Técnico <br>NOC 24 horas</h3>
+    </div>
+    <div id="numeros">
+        <p class="num">0800 600 0800</p>
+        <p class="num">(31) 3987 - 0800</p>
+        <p class="num">(31) 3987 - 0501</p>
+    </div>
+    <div>
+        <p id="email">noc@sempre.net.br</p>
+    </div>
+</footer>
+</html>
